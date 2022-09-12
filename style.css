@@ -638,231 +638,231 @@ img {
 }
 
 .text-secondary {
-  color: #00925a;
+  color: #00d684;
 }
 
 .text-hover-secondary:hover {
-  color: #00925a;
+  color: #00d684;
 }
 
 .bg-secondary {
-  background-color: #00925a;
+  background-color: #00d684;
 }
 
 .text-secondary-light-1 {
-  color: #1a9d6b;
+  color: #1ada90;
 }
 
 .text-hover-secondary-light-1:hover {
-  color: #1a9d6b;
+  color: #1ada90;
 }
 
 .bg-secondary-light-1 {
-  background-color: #1a9d6b;
+  background-color: #1ada90;
 }
 
 .text-secondary-light-2 {
-  color: #33a87b;
+  color: #33de9d;
 }
 
 .text-hover-secondary-light-2:hover {
-  color: #33a87b;
+  color: #33de9d;
 }
 
 .bg-secondary-light-2 {
-  background-color: #33a87b;
+  background-color: #33de9d;
 }
 
 .text-secondary-light-3 {
-  color: #4db38c;
+  color: #4de2a9;
 }
 
 .text-hover-secondary-light-3:hover {
-  color: #4db38c;
+  color: #4de2a9;
 }
 
 .bg-secondary-light-3 {
-  background-color: #4db38c;
+  background-color: #4de2a9;
 }
 
 .text-secondary-light-4 {
-  color: #66be9c;
+  color: #66e6b5;
 }
 
 .text-hover-secondary-light-4:hover {
-  color: #66be9c;
+  color: #66e6b5;
 }
 
 .bg-secondary-light-4 {
-  background-color: #66be9c;
+  background-color: #66e6b5;
 }
 
 .text-secondary-light-5 {
-  color: #80c9ad;
+  color: #80ebc2;
 }
 
 .text-hover-secondary-light-5:hover {
-  color: #80c9ad;
+  color: #80ebc2;
 }
 
 .bg-secondary-light-5 {
-  background-color: #80c9ad;
+  background-color: #80ebc2;
 }
 
 .text-secondary-light-6 {
-  color: #99d3bd;
+  color: #99efce;
 }
 
 .text-hover-secondary-light-6:hover {
-  color: #99d3bd;
+  color: #99efce;
 }
 
 .bg-secondary-light-6 {
-  background-color: #99d3bd;
+  background-color: #99efce;
 }
 
 .text-secondary-light-7 {
-  color: #b3dece;
+  color: #b3f3da;
 }
 
 .text-hover-secondary-light-7:hover {
-  color: #b3dece;
+  color: #b3f3da;
 }
 
 .bg-secondary-light-7 {
-  background-color: #b3dece;
+  background-color: #b3f3da;
 }
 
 .text-secondary-light-8 {
-  color: #cce9de;
+  color: #ccf7e6;
 }
 
 .text-hover-secondary-light-8:hover {
-  color: #cce9de;
+  color: #ccf7e6;
 }
 
 .bg-secondary-light-8 {
-  background-color: #cce9de;
+  background-color: #ccf7e6;
 }
 
 .text-secondary-light-9 {
-  color: #e6f4ef;
+  color: #e6fbf3;
 }
 
 .text-hover-secondary-light-9:hover {
-  color: #e6f4ef;
+  color: #e6fbf3;
 }
 
 .bg-secondary-light-9 {
-  background-color: #e6f4ef;
+  background-color: #e6fbf3;
 }
 
 .text-secondary-dark-1 {
-  color: #008351;
+  color: #00c177;
 }
 
 .text-hover-secondary-dark-1:hover {
-  color: #008351;
+  color: #00c177;
 }
 
 .bg-secondary-dark-1 {
-  background-color: #008351;
+  background-color: #00c177;
 }
 
 .text-secondary-dark-2 {
-  color: #007548;
+  color: #00ab6a;
 }
 
 .text-hover-secondary-dark-2:hover {
-  color: #007548;
+  color: #00ab6a;
 }
 
 .bg-secondary-dark-2 {
-  background-color: #007548;
+  background-color: #00ab6a;
 }
 
 .text-secondary-dark-3 {
-  color: #00663f;
+  color: #00965c;
 }
 
 .text-hover-secondary-dark-3:hover {
-  color: #00663f;
+  color: #00965c;
 }
 
 .bg-secondary-dark-3 {
-  background-color: #00663f;
+  background-color: #00965c;
 }
 
 .text-secondary-dark-4 {
-  color: #005836;
+  color: #00804f;
 }
 
 .text-hover-secondary-dark-4:hover {
-  color: #005836;
+  color: #00804f;
 }
 
 .bg-secondary-dark-4 {
-  background-color: #005836;
+  background-color: #00804f;
 }
 
 .text-secondary-dark-5 {
-  color: #00492d;
+  color: #006b42;
 }
 
 .text-hover-secondary-dark-5:hover {
-  color: #00492d;
+  color: #006b42;
 }
 
 .bg-secondary-dark-5 {
-  background-color: #00492d;
+  background-color: #006b42;
 }
 
 .text-secondary-dark-6 {
-  color: #003a24;
+  color: #005635;
 }
 
 .text-hover-secondary-dark-6:hover {
-  color: #003a24;
+  color: #005635;
 }
 
 .bg-secondary-dark-6 {
-  background-color: #003a24;
+  background-color: #005635;
 }
 
 .text-secondary-dark-7 {
-  color: #002c1b;
+  color: #004028;
 }
 
 .text-hover-secondary-dark-7:hover {
-  color: #002c1b;
+  color: #004028;
 }
 
 .bg-secondary-dark-7 {
-  background-color: #002c1b;
+  background-color: #004028;
 }
 
 .text-secondary-dark-8 {
-  color: #001d12;
+  color: #002b1a;
 }
 
 .text-hover-secondary-dark-8:hover {
-  color: #001d12;
+  color: #002b1a;
 }
 
 .bg-secondary-dark-8 {
-  background-color: #001d12;
+  background-color: #002b1a;
 }
 
 .text-secondary-dark-9 {
-  color: #000f09;
+  color: #00150d;
 }
 
 .text-hover-secondary-dark-9:hover {
-  color: #000f09;
+  color: #00150d;
 }
 
 .bg-secondary-dark-9 {
-  background-color: #000f09;
+  background-color: #00150d;
 }
 
 .text-error {
@@ -2006,231 +2006,231 @@ img {
 }
 
 .text-green {
-  color: #00ec20;
+  color: #009c15;
 }
 
 .text-hover-green:hover {
-  color: #00ec20;
+  color: #009c15;
 }
 
 .bg-green {
-  background-color: #00ec20;
+  background-color: #009c15;
 }
 
 .text-green-light-1 {
-  color: #1aee36;
+  color: #1aa62c;
 }
 
 .text-hover-green-light-1:hover {
-  color: #1aee36;
+  color: #1aa62c;
 }
 
 .bg-green-light-1 {
-  background-color: #1aee36;
+  background-color: #1aa62c;
 }
 
 .text-green-light-2 {
-  color: #33f04d;
+  color: #33b044;
 }
 
 .text-hover-green-light-2:hover {
-  color: #33f04d;
+  color: #33b044;
 }
 
 .bg-green-light-2 {
-  background-color: #33f04d;
+  background-color: #33b044;
 }
 
 .text-green-light-3 {
-  color: #4df263;
+  color: #4dba5b;
 }
 
 .text-hover-green-light-3:hover {
-  color: #4df263;
+  color: #4dba5b;
 }
 
 .bg-green-light-3 {
-  background-color: #4df263;
+  background-color: #4dba5b;
 }
 
 .text-green-light-4 {
-  color: #66f479;
+  color: #66c473;
 }
 
 .text-hover-green-light-4:hover {
-  color: #66f479;
+  color: #66c473;
 }
 
 .bg-green-light-4 {
-  background-color: #66f479;
+  background-color: #66c473;
 }
 
 .text-green-light-5 {
-  color: #80f690;
+  color: #80ce8a;
 }
 
 .text-hover-green-light-5:hover {
-  color: #80f690;
+  color: #80ce8a;
 }
 
 .bg-green-light-5 {
-  background-color: #80f690;
+  background-color: #80ce8a;
 }
 
 .text-green-light-6 {
-  color: #99f7a6;
+  color: #99d7a1;
 }
 
 .text-hover-green-light-6:hover {
-  color: #99f7a6;
+  color: #99d7a1;
 }
 
 .bg-green-light-6 {
-  background-color: #99f7a6;
+  background-color: #99d7a1;
 }
 
 .text-green-light-7 {
-  color: #b3f9bc;
+  color: #b3e1b9;
 }
 
 .text-hover-green-light-7:hover {
-  color: #b3f9bc;
+  color: #b3e1b9;
 }
 
 .bg-green-light-7 {
-  background-color: #b3f9bc;
+  background-color: #b3e1b9;
 }
 
 .text-green-light-8 {
-  color: #ccfbd2;
+  color: #ccebd0;
 }
 
 .text-hover-green-light-8:hover {
-  color: #ccfbd2;
+  color: #ccebd0;
 }
 
 .bg-green-light-8 {
-  background-color: #ccfbd2;
+  background-color: #ccebd0;
 }
 
 .text-green-light-9 {
-  color: #e6fde9;
+  color: #e6f5e8;
 }
 
 .text-hover-green-light-9:hover {
-  color: #e6fde9;
+  color: #e6f5e8;
 }
 
 .bg-green-light-9 {
-  background-color: #e6fde9;
+  background-color: #e6f5e8;
 }
 
 .text-green-dark-1 {
-  color: #00d41d;
+  color: #008c13;
 }
 
 .text-hover-green-dark-1:hover {
-  color: #00d41d;
+  color: #008c13;
 }
 
 .bg-green-dark-1 {
-  background-color: #00d41d;
+  background-color: #008c13;
 }
 
 .text-green-dark-2 {
-  color: #00bd1a;
+  color: #007d11;
 }
 
 .text-hover-green-dark-2:hover {
-  color: #00bd1a;
+  color: #007d11;
 }
 
 .bg-green-dark-2 {
-  background-color: #00bd1a;
+  background-color: #007d11;
 }
 
 .text-green-dark-3 {
-  color: #00a516;
+  color: #006d0f;
 }
 
 .text-hover-green-dark-3:hover {
-  color: #00a516;
+  color: #006d0f;
 }
 
 .bg-green-dark-3 {
-  background-color: #00a516;
+  background-color: #006d0f;
 }
 
 .text-green-dark-4 {
-  color: #008e13;
+  color: #005e0d;
 }
 
 .text-hover-green-dark-4:hover {
-  color: #008e13;
+  color: #005e0d;
 }
 
 .bg-green-dark-4 {
-  background-color: #008e13;
-}
-
-.text-green-dark-5 {
-  color: #007610;
-}
-
-.text-hover-green-dark-5:hover {
-  color: #007610;
-}
-
-.bg-green-dark-5 {
-  background-color: #007610;
-}
-
-.text-green-dark-6 {
-  color: #005e0d;
-}
-
-.text-hover-green-dark-6:hover {
-  color: #005e0d;
-}
-
-.bg-green-dark-6 {
   background-color: #005e0d;
 }
 
+.text-green-dark-5 {
+  color: #004e0b;
+}
+
+.text-hover-green-dark-5:hover {
+  color: #004e0b;
+}
+
+.bg-green-dark-5 {
+  background-color: #004e0b;
+}
+
+.text-green-dark-6 {
+  color: #003e08;
+}
+
+.text-hover-green-dark-6:hover {
+  color: #003e08;
+}
+
+.bg-green-dark-6 {
+  background-color: #003e08;
+}
+
 .text-green-dark-7 {
-  color: #00470a;
+  color: #002f06;
 }
 
 .text-hover-green-dark-7:hover {
-  color: #00470a;
+  color: #002f06;
 }
 
 .bg-green-dark-7 {
-  background-color: #00470a;
-}
-
-.text-green-dark-8 {
-  color: #002f06;
-}
-
-.text-hover-green-dark-8:hover {
-  color: #002f06;
-}
-
-.bg-green-dark-8 {
   background-color: #002f06;
 }
 
+.text-green-dark-8 {
+  color: #001f04;
+}
+
+.text-hover-green-dark-8:hover {
+  color: #001f04;
+}
+
+.bg-green-dark-8 {
+  background-color: #001f04;
+}
+
 .text-green-dark-9 {
-  color: #001803;
+  color: #001002;
 }
 
 .text-hover-green-dark-9:hover {
-  color: #001803;
+  color: #001002;
 }
 
 .bg-green-dark-9 {
-  background-color: #001803;
+  background-color: #001002;
 }
 
 .text-orange {
@@ -2944,8 +2944,7 @@ img {
 .card {
   display: block;
   padding: 0.75rem;
-  border: 1px solid #ddd;
-  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  border: 4px solid rgb(255, 255, 255);
   border-radius: 5px;
 }
 .card .card-title {
@@ -2960,6 +2959,24 @@ img {
   text-decoration: underline;
 }
 
+.card-b {
+  display: block;
+  padding: 0.75rem;
+  margin: 0.5rem;
+  border: 1px solid black;
+}
+.card-b .card-title {
+  font-size: 1rem;
+  padding-bottom: 0.75rem;
+  font-weight: bold;
+}
+.card-b .card-body {
+  font-size: 1rem;
+}
+.card-b .card-body a {
+  text-decoration: underline;
+}
+
 .btn {
   text-decoration: none;
   cursor: pointer;
@@ -2968,6 +2985,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #e2e2e2;
+  margin: 0.5rem;
 }
 
 .btn-primary {
@@ -2978,6 +2996,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #0049e7;
+  margin: 0.5rem;
 }
 .btn-primary:hover {
   background-color: #0252ff;
@@ -2991,6 +3010,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #fff;
+  margin: 0.5rem;
   border: 1px solid #0049e7;
 }
 .btn-outlined-primary:hover {
@@ -3005,6 +3025,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #0049e7;
+  margin: 0.5rem;
   color: #ffd781;
 }
 .btn-complement-primary:hover {
@@ -3019,10 +3040,11 @@ img {
   border: 0;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
-  background-color: #00925a;
+  background-color: #00d684;
+  margin: 0.5rem;
 }
 .btn-secondary:hover {
-  background-color: #00ac6a;
+  background-color: #00f094;
 }
 
 .btn-outlined-secondary {
@@ -3033,10 +3055,11 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #fff;
-  border: 1px solid #00925a;
+  margin: 0.5rem;
+  border: 1px solid #00d684;
 }
 .btn-outlined-secondary:hover {
-  background-color: #00925a;
+  background-color: #00d684;
 }
 
 .btn-complement-secondary {
@@ -3046,12 +3069,13 @@ img {
   border: 0;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
-  background-color: #00925a;
-  color: #ff2c7d;
+  background-color: #00d684;
+  margin: 0.5rem;
+  color: #ff70a7;
 }
 .btn-complement-secondary:hover {
-  color: #00925a;
-  background-color: #ff2c7d;
+  color: #00d684;
+  background-color: #ff70a7;
 }
 
 .btn-error {
@@ -3062,6 +3086,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #af002c;
+  margin: 0.5rem;
 }
 .btn-error:hover {
   background-color: #c90032;
@@ -3075,6 +3100,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #fff;
+  margin: 0.5rem;
   border: 1px solid #af002c;
 }
 .btn-outlined-error:hover {
@@ -3089,6 +3115,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #af002c;
+  margin: 0.5rem;
   color: #49ffd1;
 }
 .btn-complement-error:hover {
@@ -3104,6 +3131,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #cf9f00;
+  margin: 0.5rem;
 }
 .btn-info:hover {
   background-color: #e9b300;
@@ -3117,6 +3145,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #fff;
+  margin: 0.5rem;
   border: 1px solid #cf9f00;
 }
 .btn-outlined-info:hover {
@@ -3131,6 +3160,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #cf9f00;
+  margin: 0.5rem;
   color: #698cff;
 }
 .btn-complement-info:hover {
@@ -3146,6 +3176,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #1919e6;
+  margin: 0.5rem;
 }
 .btn-blue:hover {
   background-color: #3030e9;
@@ -3159,6 +3190,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #fff;
+  margin: 0.5rem;
   border: 1px solid #1919e6;
 }
 .btn-outlined-blue:hover {
@@ -3173,6 +3205,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #1919e6;
+  margin: 0.5rem;
   color: #f5f5a3;
 }
 .btn-complement-blue:hover {
@@ -3188,6 +3221,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #e61919;
+  margin: 0.5rem;
 }
 .btn-red:hover {
   background-color: #e93030;
@@ -3201,6 +3235,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #fff;
+  margin: 0.5rem;
   border: 1px solid #e61919;
 }
 .btn-outlined-red:hover {
@@ -3215,6 +3250,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #e61919;
+  margin: 0.5rem;
   color: #a3f5f5;
 }
 .btn-complement-red:hover {
@@ -3230,6 +3266,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #e6e619;
+  margin: 0.5rem;
 }
 .btn-yellow:hover {
   background-color: #e9e930;
@@ -3243,6 +3280,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #fff;
+  margin: 0.5rem;
   border: 1px solid #e6e619;
 }
 .btn-outlined-yellow:hover {
@@ -3257,6 +3295,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #e6e619;
+  margin: 0.5rem;
   color: #a3a3f5;
 }
 .btn-complement-yellow:hover {
@@ -3271,10 +3310,11 @@ img {
   border: 0;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
-  background-color: #00ec20;
+  background-color: #009c15;
+  margin: 0.5rem;
 }
 .btn-green:hover {
-  background-color: #07ff28;
+  background-color: #00b618;
 }
 
 .btn-outlined-green {
@@ -3285,10 +3325,11 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #fff;
-  border: 1px solid #00ec20;
+  margin: 0.5rem;
+  border: 1px solid #009c15;
 }
 .btn-outlined-green:hover {
-  background-color: #00ec20;
+  background-color: #009c15;
 }
 
 .btn-complement-green {
@@ -3298,12 +3339,13 @@ img {
   border: 0;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
-  background-color: #00ec20;
-  color: #ff86ef;
+  background-color: #009c15;
+  margin: 0.5rem;
+  color: #ff36e4;
 }
 .btn-complement-green:hover {
-  color: #00ec20;
-  background-color: #ff86ef;
+  color: #009c15;
+  background-color: #ff36e4;
 }
 
 .btn-orange {
@@ -3314,6 +3356,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #ffa600;
+  margin: 0.5rem;
 }
 .btn-orange:hover {
   background-color: #ffaf1a;
@@ -3327,6 +3370,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #fff;
+  margin: 0.5rem;
   border: 1px solid #ffa600;
 }
 .btn-outlined-orange:hover {
@@ -3341,6 +3385,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #ffa600;
+  margin: 0.5rem;
   color: #99bdff;
 }
 .btn-complement-orange:hover {
@@ -3356,6 +3401,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #9900ff;
+  margin: 0.5rem;
 }
 .btn-purple:hover {
   background-color: #a31aff;
@@ -3369,6 +3415,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #fff;
+  margin: 0.5rem;
   border: 1px solid #9900ff;
 }
 .btn-outlined-purple:hover {
@@ -3383,6 +3430,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #9900ff;
+  margin: 0.5rem;
   color: #c2ff99;
 }
 .btn-complement-purple:hover {
@@ -3398,6 +3446,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #808080;
+  margin: 0.5rem;
 }
 .btn-gray:hover {
   background-color: #8d8d8d;
@@ -3411,6 +3460,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #fff;
+  margin: 0.5rem;
   border: 1px solid #808080;
 }
 .btn-outlined-gray:hover {
@@ -3425,6 +3475,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #808080;
+  margin: 0.5rem;
   color: #cdcdcd;
 }
 .btn-complement-gray:hover {
@@ -3440,6 +3491,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: black;
+  margin: 0.5rem;
 }
 .btn-black:hover {
   background-color: #0d0d0d;
@@ -3453,6 +3505,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #fff;
+  margin: 0.5rem;
   border: 1px solid black;
 }
 .btn-outlined-black:hover {
@@ -3467,6 +3520,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: black;
+  margin: 0.5rem;
   color: #4d4d4d;
 }
 .btn-complement-black:hover {
@@ -3482,6 +3536,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: white;
+  margin: 0.5rem;
 }
 .btn-white:hover {
   background-color: white;
@@ -3495,6 +3550,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #fff;
+  margin: 0.5rem;
   border: 1px solid white;
 }
 .btn-outlined-white:hover {
@@ -3509,6 +3565,7 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: white;
+  margin: 0.5rem;
   color: white;
 }
 .btn-complement-white:hover {
@@ -3536,7 +3593,7 @@ img {
 }
 
 .navbar-secondary {
-  background-color: #00925a;
+  background-color: #00d684;
 }
 
 .navbar-error {
@@ -3560,7 +3617,7 @@ img {
 }
 
 .navbar-green {
-  background-color: #00ec20;
+  background-color: #009c15;
 }
 
 .navbar-orange {
@@ -3601,7 +3658,7 @@ img {
 
 .badge-secondary {
   border-radius: 80px;
-  background-color: #00925a;
+  background-color: #00d684;
   padding: 0.1875rem 0.375rem;
   font-size: 0.75rem;
   font-weight: normal;
@@ -3649,7 +3706,7 @@ img {
 
 .badge-green {
   border-radius: 80px;
-  background-color: #00ec20;
+  background-color: #009c15;
   padding: 0.1875rem 0.375rem;
   font-size: 0.75rem;
   font-weight: normal;
