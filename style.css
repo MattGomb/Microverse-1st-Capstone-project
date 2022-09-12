@@ -44,7 +44,7 @@ img {
   padding: 1rem 2rem 2rem 2rem;
   letter-spacing: 4px;
 }
-.home-bg h4 {
+.home-bg h2 {
   padding: 2rem 0 0 1rem;
   letter-spacing: 2px;
 }
@@ -69,6 +69,53 @@ img {
 }
 .contact-info a {
   text-decoration: underline;
+}
+
+.past-fests h2, .partners h2 {
+  text-align: center;
+}
+.past-fests p, .partners p {
+  text-align: center;
+}
+
+.pf-2019, .pf-2018, .pf-2017, .pf-2016 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5rem;
+  font-size: 6rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.past-h:hover {
+  filter: grayscale(100%);
+}
+
+.pf-2019 {
+  background-image: url("/images/2019-past.jpg");
+}
+
+.pf-2018 {
+  background-image: url("/images/2018-past.jpg");
+}
+
+.pf-2017 {
+  background-image: url("/images/2017-past.jpg");
+}
+
+.pf-2016 {
+  background-image: url("/images/2016-past.jpg");
+}
+
+.container-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.logos {
+  padding: 1rem;
 }
 
 .container {
@@ -4452,6 +4499,7 @@ img {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  opacity: 0.8;
 }
 
 .menu > li {
