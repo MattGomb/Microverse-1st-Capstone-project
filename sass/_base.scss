@@ -125,3 +125,14 @@ img {
   padding: 1rem;
 
 }
+
+.footer {
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 1rem;
+}
+
+.footer-img {
+  max-height: 2rem;
+}
