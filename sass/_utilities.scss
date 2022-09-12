@@ -1,5 +1,12 @@
 @use 'sass:math';
 
+.separator {
+  width: 53px;
+    height: 16px;
+    border-bottom: 1px solid $info;
+    margin: 0px auto 54px;
+}
+
 $utilities: (
   "padding": (
     "prefix": "p",

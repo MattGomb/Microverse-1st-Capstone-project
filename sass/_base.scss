@@ -31,3 +31,47 @@ img {
 .test {
   color: $primary;
 }
+
+.h-secondary {
+  text-align: center;
+}
+
+.home-bg {
+  background-image: url('/images/header_greensziget.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.199);
+
+  h1 {
+    padding: 1rem 2rem 2rem 2rem;
+    letter-spacing: 4px;
+  }
+
+  h4 {
+    padding: 2rem 0 0 1rem;
+    letter-spacing: 2px;
+  }
+
+  p {
+    line-height: 150%;
+  }
+}
+
+.sziget-logo {
+  border: 1px solid #000;
+  border-radius: 1rem;
+}
+
+.h1-about, .h4-about{
+  text-align: center;
+}
+
+.contact-info {
+  font-size: 0.8rem;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 1rem;
+  a {
+    text-decoration: underline;
+  }
+}
