@@ -131,6 +131,12 @@ img {
   align-items: center;
 }
 
+.exp {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
 .container {
   width: 100%;
   margin: 0 auto;
@@ -3992,6 +3998,10 @@ img {
 .btn-complement-white:hover {
   color: white;
   background-color: white;
+}
+
+.btn-or-b {
+  margin: auto;
 }
 
 .flex-layout, .navbar .container, .navbar-white .container, .navbar-black .container, .navbar-sherpa-blue .container, .navbar-gray .container, .navbar-purple .container, .navbar-orange .container, .navbar-green .container, .navbar-yellow .container, .navbar-red .container, .navbar-blue .container, .navbar-info .container, .navbar-error .container, .navbar-secondary .container, .navbar-primary .container, .navbar, .navbar-white, .navbar-black, .navbar-sherpa-blue, .navbar-gray, .navbar-purple, .navbar-orange, .navbar-green, .navbar-yellow, .navbar-red, .navbar-blue, .navbar-info, .navbar-error, .navbar-secondary, .navbar-primary {
