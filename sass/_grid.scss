@@ -16,6 +16,7 @@ $layout-values: flex-start, flex-end, center, space-between, space-around;
   padding: 0 20px;
   box-sizing: border-box;
 }
+
 .row {
   display: flex;
   flex-flow: row wrap;
@@ -49,6 +50,7 @@ $layout-values: flex-start, flex-end, center, space-between, space-around;
     }
   }
 }
+
 @include sm {
   @for $i from 1 through $grid-columns {
     .col-#{$i}-sm {
@@ -58,6 +60,7 @@ $layout-values: flex-start, flex-end, center, space-between, space-around;
     }
   }
 }
+
 @include md {
   @for $i from 1 through $grid-columns {
     .col-#{$i}-md {
@@ -67,6 +70,7 @@ $layout-values: flex-start, flex-end, center, space-between, space-around;
     }
   }
 }
+
 @include lg {
   @for $i from 1 through $grid-columns {
     .col-#{$i}-lg {
@@ -76,6 +80,7 @@ $layout-values: flex-start, flex-end, center, space-between, space-around;
     }
   }
 }
+
 @include xl {
   @for $i from 1 through $grid-columns {
     .col-#{$i}-xl {

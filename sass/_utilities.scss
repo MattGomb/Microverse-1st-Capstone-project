@@ -2,9 +2,9 @@
 
 .separator {
   width: 53px;
-    height: 16px;
-    border-bottom: 1px solid $info;
-    margin: 0px auto 54px;
+  height: 16px;
+  border-bottom: 1px solid $info;
+  margin: 0 auto 54px;
 }
 
 $utilities: (
@@ -118,7 +118,6 @@ $utilities: (
       "5": $base-margin * 8
     ),
   ),
-
   "opacity": (
     "prefix": "o",
     "values": (
@@ -173,12 +172,14 @@ $utilities: (
   $values: map-get($map, "values");
 
   @each $k, $v in $values {
-    @if($k == "default") {
+    @if ($k == "default") {
       .#{$prefix} {
         #{$property}: $v;
       }
-    } @else {
-      .#{$prefix}-#{$k}{
+    }
+
+    @else {
+      .#{$prefix}-#{$k} {
         #{$property}: $v;
       }
     }

@@ -10,8 +10,8 @@
   .bg-#{$key} {
     background-color: $val;
   }
-  @if ($val != black and $val != white) {
 
+  @if ($val != black and $val != white) {
     @for $i from 1 through 9 {
       .text-#{$key}-light-#{$i} {
         color: mix(white, $val, $i * 10);

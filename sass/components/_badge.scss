@@ -13,7 +13,7 @@
 }
 
 @each $key, $val in $colors {
-  .badge-#{$key}{
+  .badge-#{$key} {
     @include badge($val);
   }
 }

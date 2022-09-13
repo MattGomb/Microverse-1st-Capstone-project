@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:wght@400;500;600;700&display=swap');
 
-
 * {
   color: inherit;
   margin: 0;
@@ -62,7 +61,8 @@ img {
   border-radius: 1rem;
 }
 
-.h1-about, .h4-about{
+.h1-about,
+.h4-about {
   text-align: center;
 }
 
@@ -71,21 +71,27 @@ img {
   text-align: center;
   border: 1px solid white;
   border-radius: 1rem;
+
   a {
     text-decoration: underline;
   }
 }
 
-.past-fests, .partners {
+.past-fests,
+.partners {
   h2 {
     text-align: center;
   }
+
   p {
     text-align: center;
   }
 }
 
-.pf-2019, .pf-2018, .pf-2017, .pf-2016 {
+.pf-2019,
+.pf-2018,
+.pf-2017,
+.pf-2016 {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 5rem;
@@ -123,7 +129,6 @@ img {
 
 .logos {
   padding: 1rem;
-
 }
 
 .footer {
