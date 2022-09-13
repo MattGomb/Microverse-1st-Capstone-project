@@ -3998,7 +3998,6 @@ img {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   box-sizing: border-box;
 }
 
@@ -4072,11 +4071,26 @@ img {
   margin: 0;
   padding: 0;
   opacity: 0.8;
+  position: absolute;
+  top: 0;
+  margin-top: 3rem;
+  left: 0;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .menu > li {
   margin: 0 1rem;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0.5em 0;
+  width: 100%;
+  color: white;
+  background-color: #222;
 }
 
 .menu-button-container {
@@ -4133,17 +4147,6 @@ img {
   display: flex;
 }
 
-.menu {
-  position: absolute;
-  top: 0;
-  margin-top: 50px;
-  left: 0;
-  flex-direction: column;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-}
-
 #menu-toggle ~ .menu li {
   height: 0;
   margin: 0;
@@ -4159,20 +4162,29 @@ img {
   transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
 }
 
-.menu > li {
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 0.5em 0;
-  width: 100%;
-  color: white;
-  background-color: #222;
-}
-
 .menu > li:not(:last-child) {
   border-bottom: 1px solid #444;
 }
 
+@media (min-width: 0px) {
+  .menu-desktop {
+    display: none;
+  }
+}
+@media (min-width: 720px) {
+  .menu-button, .menu-button-container, #menu-toggle {
+    display: none;
+  }
+  .menu-desktop {
+    display: flex;
+    gap: 1rem;
+    color: white;
+    font-weight: 600;
+  }
+  .cont-nav {
+    justify-content: flex-end;
+  }
+}
 .badge {
   border-radius: 80px;
   background-color: #cf9f00;
