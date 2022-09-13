@@ -138,6 +138,10 @@ img {
   justify-items: center;
 }
 
+.text-footer {
+  font-size: 0.75rem;
+}
+
 .container {
   width: 100%;
   margin: 0 auto;
