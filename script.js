@@ -1,8 +1,8 @@
 function toggleHamburger() {
-  var dropDown = document.getElementById('myLinks')
+  const dropDown = document.getElementById('myLinks');
   if (dropDown.style.display === 'block') {
-    dropDown.style.display = 'none'
+    dropDown.style.display = 'none';
   } else {
-    dropDown.style.display = 'block'
+    dropDown.style.display = 'block';
   }
 }
