@@ -1,5 +1,17 @@
 @use 'sass:math';
 
+.contact-info {
+  font-size: 0.8rem;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 1rem;
+  margin: auto;
+
+  a {
+    text-decoration: underline;
+  }
+}
+
 .card {
   display: flex;
   padding: $base-padding;
@@ -15,7 +27,6 @@
 
   .card-body {
     font-size: $base-font-size;
-    
 
     a {
       text-decoration: underline;
@@ -72,16 +83,4 @@
   max-height: 104px;
   max-width: 104px;
   align-self: center;
-}
-
-.contact-info {
-  font-size: 0.8rem;
-  text-align: center;
-  border: 1px solid white;
-  border-radius: 1rem;
-  margin: auto;
-
-  a {
-    text-decoration: underline;
-  }
 }
