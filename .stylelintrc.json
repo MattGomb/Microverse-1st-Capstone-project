@@ -3,7 +3,7 @@
   "plugins": ["stylelint-scss", "stylelint-csstree-validator"],
   "rules": {
     "at-rule-no-unknown": [
-      true,
+      null,
       {
         "ignoreAtRules": ["tailwind", "apply", "variants", "responsive", "screen"]
       }
@@ -14,7 +14,7 @@
         "ignoreAtRules": ["tailwind", "apply", "variants", "responsive", "screen"]
       }
     ],
-    "csstree/validator": true
+    "csstree/validator": null
   },
   "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css", "**/*.js", "**/*.jsx"]
 }
