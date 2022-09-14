@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="style.css">
   <title>1st Capstone project</title>
 </head>
-<body class="bg-sherpa-blue-light-1">
+<body class="bg-sherpa-blue-light-1" onload="artistsPage">
   <nav class="navbar pb-2 bg-sherpa-blue-light-2">
     <div class="container cont-nav">
       <input class="p-1" id="menu-toggle" type="checkbox" />
@@ -40,7 +40,6 @@
       </div>
       <h2>2022.08.10(WED) - 15(MON)</h2>
       <p>Óbudai-sziget, Budapest</p>
-      
     </div>
     <div class="bg-sherpa-blue text-white pb-2 exp">
       <h1 class="h-secondary pt-2">Sziget Experience</h1>
@@ -104,11 +103,13 @@
       </div>
       <button type="button" class="btn-orange btn-or-b mt-2">Buy your ticket HERE!</button>
     </div>
-    <!--
+    <div class="featured-artists"></div>
     <div class="bg-yellow-light-9">
       <h2 class="h-secondary pt-2">Featured Artists</h2>
       <div class="separator"></div>
-      <div class="row gap-2 ml-1 mr-1">
+      <div id="artistsholder"></div>
+      <!--
+        <div class="row gap-2 ml-1 mr-1">
         <div class="card-c col-12-xs col-12-sm col-6-md col-4-lg">
           <img class="col-3-xs card-img" src="images/justin-bieber.jpg" alt="justin bieber">
           <div>
@@ -179,6 +180,7 @@
       </div>
     </div>
   -->
+
     <div id="about" class="about bg-orange-light-2 mt-2 pb-2">
       <h2 class="h4-about pt-1 pb-2">green Sziget
       </h2>
@@ -189,7 +191,7 @@
           The Love Revolution is our way of celebrating, that together, we can achieve sustainable development and environmental awareness in our daily lives.
         </p>
       </div>
-      <div class="card contact-info p-1 mt-1 ml-2 mr-2 col-7-md col-5-lg col-4-xl"> 
+      <div class="contact-info p-1 mt-1 ml-2 mr-2 col-7-md col-5-lg col-4-xl"> 
         <p>we are always here for you on the following email address: <br>
           <a href="mailto: hello@szigetfestival.com">hello@szigetfestival.com</a> <br> 
           If you have questions regarding ticketing purpose, please contact us here: <br> 
