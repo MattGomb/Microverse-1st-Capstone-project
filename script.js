@@ -1,3 +1,4 @@
+/* hamburger menu dropdown */
 // eslint-disable-next-line no-unused-vars
 function toggleHamburger() {
   const dropDown = document.getElementById('myLinks');
@@ -7,3 +8,44 @@ function toggleHamburger() {
     dropDown.style.display = 'block';
   }
 }
+
+/* dynamic HTML */
+
+const featuredArtistsData = [
+  {
+    title: 'Featured Artists',
+    separator: 'separatorline',
+  },
+  {
+    name: 'Tame Impala',
+    img: './images/tame-impala.jpg',
+    desc: 'Tame Impala is the psychedelic music project of Australian multi-instrumentalist Kevin Parker. In the recording studio, Parker writes, records, performs, and produces all of the projects music.',
+  },
+  {
+    name: 'Dua Lipa',
+    img: './images/dua-lipa.jpeg',
+    desc: 'Our other British star Dua Lipa has recently shown who she is and there is no one who doesn’t know her. Number 1 hits, more and more fans and an ever-growing stage, there seems to be no stop on this pop princess.',
+  },
+  {
+    name: 'Arctic Monkeys',
+    img: './images/arctic-monkeys.jpg',
+    desc: 'The British indie rock band Arctic Monkeys has finally returned to the festival stages. In the United Kingdom, the band became the first independent-label band to debut at number one in the UK with their first five albums. They will make a great act of it so make sure you don’t miss them! ',
+  },
+  {
+    name: 'Calvin Harris',
+    img: './images/calvin-harris.jpg',
+    desc: 'Calvin Harris has made many hits with big names. Dua Lipa, Rag’n’Bone Man, Katy Perry, Ariana Grande and we could go on and on. His last hit was By Your Side with Tom Grannan in 2021.',
+  },
+  {
+    name: 'Kings of Leon',
+    img: './images/kings-of-leon.jpg',
+    desc: 'The 3 brothers of Kings of Leon have worked very hard the last few years. They have already released 7 albums. Their act will be amazing!',
+  },
+  {
+    name: 'Justin Bieber',
+    img: './images/justin-bieber.jpg',
+    desc: 'Justin Bieber will perform at Sziget 2022. This is quite unique, since Justin Bieber normally does tours and can hardly be found as an act at festivals. Have you never been able to get tickets for a JB tour? This is your chance to see him on Sziget.',
+  },
+];
+
+
