@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Lato;
+  font-family: Lato, sans-serif;
 }
 
 ul {
@@ -3280,6 +3280,18 @@ img {
   background-color: white;
 }
 
+.contact-info {
+  font-size: 0.8rem;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 1rem;
+  margin: auto;
+  justify-items: center;
+}
+.contact-info a {
+  text-decoration: underline;
+}
+
 .card {
   display: flex;
   padding: 0.75rem;
@@ -3331,17 +3343,17 @@ img {
   font-weight: bold;
 }
 
-.card-c {
+.artistcard {
   display: flex;
   padding: 0.75rem;
   -moz-column-gap: 10px;
        column-gap: 10px;
   margin: 0;
 }
-.card-c .card-body {
+.artistcard .card-body {
   font-size: 0.75rem;
 }
-.card-c .card-title {
+.artistcard .card-title {
   font-size: 1rem;
   padding-bottom: 0.75rem;
   font-weight: bold;
@@ -3351,17 +3363,6 @@ img {
   max-height: 104px;
   max-width: 104px;
   align-self: center;
-}
-
-.contact-info {
-  font-size: 0.8rem;
-  text-align: center;
-  border: 1px solid white;
-  border-radius: 1rem;
-  margin: auto;
-}
-.contact-info a {
-  text-decoration: underline;
 }
 
 .btn {
@@ -4090,7 +4091,6 @@ img {
   top: 0;
   margin-top: 3rem;
   left: 0;
-  flex-direction: column;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -4101,7 +4101,6 @@ img {
   overflow: hidden;
   display: flex;
   justify-content: center;
-  margin: 0;
   padding: 0.5em 0;
   width: 100%;
   color: white;
@@ -4156,10 +4155,11 @@ img {
 #menu-toggle:checked + .menu-button-container .menu-button::after {
   margin-top: 0;
   transform: rotate(-405deg);
+  display: flex;
 }
 
-.menu-button-container {
-  display: flex;
+.menu > li:not(:last-child) {
+  border-bottom: 1px solid #444;
 }
 
 #menu-toggle ~ .menu li {
@@ -4177,17 +4177,15 @@ img {
   transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
 }
 
-.menu > li:not(:last-child) {
-  border-bottom: 1px solid #444;
-}
-
-@media (min-width: 0px) {
+@media (min-width: 0) {
   .menu-desktop {
     display: none;
   }
 }
 @media (min-width: 720px) {
-  .menu-button, .menu-button-container, #menu-toggle {
+  .menu-button,
+.menu-button-container,
+#menu-toggle {
     display: none;
   }
   .menu-desktop {
