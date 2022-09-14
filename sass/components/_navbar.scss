@@ -9,8 +9,7 @@
   @extend .flex-layout;
 
   padding: $base-padding $base-padding * 2;
-  box-shadow: $base-box-shadow;
-
+  position: fixed;
   .site-title {
     font-size: $font-size-lg;
   }
