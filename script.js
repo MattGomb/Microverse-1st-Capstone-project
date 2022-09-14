@@ -57,30 +57,29 @@ const featuredArtistsData = [
   },
 ];
 
-featuredArtistsData.forEach(artistcard => {
-  const article = document.createElement('article');
-  article.classList.add('artistcard');
+  featuredArtistsData.forEach(artistcard => {
+      const article = document.createElement('article');
+      article.classList.add('artistcard');
 
-  const img = document.createElement('img');
-  img.classList.add('card-img');
-  img.setAttribute('src', artistcard.img);
-  img.setAttribute('alt', `${artistcard.name} picture`);
-  article.appendChild(img);
+      const img = document.createElement('img');
+      img.classList.add('card-img');
+      img.setAttribute('src', artistcard.img);
+      img.setAttribute('alt', `${artistcard.name} picture`);
+      article.appendChild(img);
 
-  const div = document.createElement('div');
-  div.classList.add('text');
-  article.appendChild(div);
+      const div = document.createElement('div');
+      div.classList.add('text');
+      article.appendChild(div);
 
-  const name = document.createElement('div');
-  name.classList.add('card-title');
-  name.textContent = artistcard.name;
-  div.appendChild(name);
+      const name = document.createElement('div');
+      name.classList.add('card-title');
+      name.textContent = artistcard.name;
+      div.appendChild(name);
 
-  const desc = document.createElement('p');
-  desc.classList.add('card-body');
-  desc.textContent = artistcard.desc;
-  div.appendChild(desc);
+      const desc = document.createElement('p');
+      desc.classList.add('card-body');
+      desc.textContent = artistcard.desc;
+      div.appendChild(desc);
 
-  artistsholder.appendChild(article);
-});
-
+      artistsholder.appendChild(article);
+  });
