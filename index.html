@@ -8,16 +8,35 @@
   <title>Index page CAPSTONE</title>
 </head>
 <body class="bg-sherpa-blue-light-1">
-  <nav class="navbar pb-1 bg-sherpa-blue-light-2">
+    <nav class="navbar bg-sherpa-blue-light-2">
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="./about.html" class="nav-link">About Sziget</a>
+        </li>
+        <li class="nav-item">
+          <a href="#featured" class="nav-link">Featured Artists</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Tickets</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Info</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
       <ul class="menu-desktop">
         <li><a href="./about.html">About Sziget</a></li>
         <li><a href="#artistsholder"> Featured Artists</a></li>
         <li>Tickets</li>
         <li>Info</li>
       </ul>
-  </nav>
+    </nav>
   <div class="container">
-    <div class="home-bg text-white p-1">
+    <div class="home-bg text-white p-1 pt-2">
       <h4>The Island of Freedom welcomes you!
       </h4>
       <h1>SZIGET Festival 2022</h1>
@@ -92,7 +111,7 @@
       <button type="button" class="btn-orange btn-or-b mt-2">Buy your ticket HERE!</button>
     </div>
     <div class="bg-yellow-light-9 featured-artists pb-2">
-      <h2 class="h-secondary pt-2">Featured Artists</h2>
+      <h2 class="h-secondary pt-2" id="featured">Featured Artists</h2>
       <div class="separator"></div>
       <div id="artistsholder"></div>
     </div>

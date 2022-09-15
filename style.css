@@ -4087,15 +4087,98 @@ img {
   font-weight: 600;
 }
 
+.navbar, .navbar-primary, .navbar-secondary, .navbar-error, .navbar-info, .navbar-blue, .navbar-red, .navbar-yellow, .navbar-green, .navbar-orange, .navbar-purple, .navbar-gray, .navbar-sherpa-blue, .navbar-black, .navbar-white {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  opacity: 0.8;
+}
+
+.navbar li, .navbar-primary li, .navbar-secondary li, .navbar-error li, .navbar-info li, .navbar-blue li, .navbar-red li, .navbar-yellow li, .navbar-green li, .navbar-orange li, .navbar-purple li, .navbar-gray li, .navbar-sherpa-blue li, .navbar-black li, .navbar-white li {
+  list-style: none;
+}
+
+.navbar li a, .navbar-primary li a, .navbar-secondary li a, .navbar-error li a, .navbar-info li a, .navbar-blue li a, .navbar-red li a, .navbar-yellow li a, .navbar-green li a, .navbar-orange li a, .navbar-purple li a, .navbar-gray li a, .navbar-sherpa-blue li a, .navbar-black li a, .navbar-white li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+
+.nav-branding {
+  font-size: 2rem;
+}
+
+.nav-link {
+  transition: 0.7s ease;
+}
+
+.nav-link:hover {
+  color: #cf9f00;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 1.5rem;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
 @media (max-width: 720px) {
   .menu-desktop {
     display: none;
   }
+  .hamburger {
+    display: block;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .nav-item {
+    margin: 1rem 0;
+  }
+  .nav-menu.active {
+    left: 0;
+  }
 }
-.cont-nav {
-  justify-content: flex-end;
+@media (min-width: 720px) {
+  .nav-menu {
+    display: none;
+  }
+  .navbar, .navbar-primary, .navbar-secondary, .navbar-error, .navbar-info, .navbar-blue, .navbar-red, .navbar-yellow, .navbar-green, .navbar-orange, .navbar-purple, .navbar-gray, .navbar-sherpa-blue, .navbar-black, .navbar-white {
+    justify-content: flex-end;
+  }
 }
-
 .badge {
   border-radius: 80px;
   background-color: #cf9f00;
