@@ -4023,6 +4023,9 @@ img {
 }
 
 .navbar, .navbar-white, .navbar-black, .navbar-sherpa-blue, .navbar-gray, .navbar-purple, .navbar-orange, .navbar-green, .navbar-yellow, .navbar-red, .navbar-blue, .navbar-info, .navbar-error, .navbar-secondary, .navbar-primary {
+  display: flex;
+  align-items: center;
+  opacity: 0.8;
   padding: 0.75rem 1.5rem;
   position: fixed;
 }
@@ -4092,14 +4095,6 @@ img {
   font-weight: 600;
 }
 
-.navbar, .navbar-primary, .navbar-secondary, .navbar-error, .navbar-info, .navbar-blue, .navbar-red, .navbar-yellow, .navbar-green, .navbar-orange, .navbar-purple, .navbar-gray, .navbar-sherpa-blue, .navbar-black, .navbar-white {
-  min-height: 70px;
-  display: flex;
-  align-items: center;
-  padding: 0 2rem;
-  opacity: 0.8;
-}
-
 .navbar li, .navbar-primary li, .navbar-secondary li, .navbar-error li, .navbar-info li, .navbar-blue li, .navbar-red li, .navbar-yellow li, .navbar-green li, .navbar-orange li, .navbar-purple li, .navbar-gray li, .navbar-sherpa-blue li, .navbar-black li, .navbar-white li {
   list-style: none;
 }
@@ -4161,7 +4156,7 @@ img {
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 70px;
+    top: 3.25rem;
     gap: 0;
     flex-direction: column;
     background-color: black;

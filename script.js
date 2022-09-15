@@ -4,12 +4,12 @@ const navMenu = document.querySelector('.nav-menu');
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
   navMenu.classList.toggle('active');
-})
+});
 
-document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
+document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
   hamburger.classList.remove('active');
   navMenu.classList.remove('active');
-}))
+}));
 
 /* dynamic HTML */
 
@@ -61,7 +61,7 @@ const featuredArtistsData = [
 
 featuredArtistsData.forEach((artistcard) => {
   const article = document.createElement('article');
-  article.classList.add('artistcard', 'col-12-xs', 'col-5-lg', 'col-5-xl', );
+  article.classList.add('artistcard', 'col-12-xs', 'col-5-lg', 'col-5-xl');
 
   const img = document.createElement('img');
   img.classList.add('card-img');
