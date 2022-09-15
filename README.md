@@ -13,11 +13,9 @@
 ## Video Introduction
 
 [Video](https://www.loom.com/share/6c381ac74f1342878d1586c937587e5b)
-
 ## Live Demo (if available)
 
 [Live Demo Link](https://mattgomb.github.io/Microverse-1st-Capstone-project/)
-
 ## Getting Started
 
 1 - Above the list of files, click on the "Code" button
@@ -28,6 +26,7 @@
     To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click SSH, then click .
     To clone a repository using GitHub CLI, click GitHub CLI, then click .
     The clipboard icon for copying the URL to clone a repository with GitHub CLI
+
 4 - Open Git Bash.
 
 5 - Change the current working directory to the location where you want the cloned directory.
@@ -86,4 +85,4 @@ Give a ⭐️ if you like this project!
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._ 
