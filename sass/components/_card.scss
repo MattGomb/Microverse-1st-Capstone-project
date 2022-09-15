@@ -3,7 +3,7 @@
 .contact-info {
   font-size: 0.8rem;
   text-align: center;
-  border: 1px solid white;
+  border: 1px solid black;
   border-radius: 1rem;
   margin: auto;
   justify-items: center;
@@ -16,7 +16,7 @@
 .card {
   display: flex;
   padding: $base-padding;
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
   border-radius: math.div($base-border-radius, 4);
   column-gap: 10px;
 

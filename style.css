@@ -3275,7 +3275,7 @@ img {
 .contact-info {
   font-size: 0.8rem;
   text-align: center;
-  border: 1px solid white;
+  border: 1px solid black;
   border-radius: 1rem;
   margin: auto;
   justify-items: center;
@@ -3287,7 +3287,7 @@ img {
 .card {
   display: flex;
   padding: 0.75rem;
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 5px;
   -moz-column-gap: 10px;
        column-gap: 10px;
@@ -3972,9 +3972,9 @@ img {
 .navbar, .navbar-white, .navbar-black, .navbar-gray, .navbar-purple, .navbar-orange, .navbar-green, .navbar-yellow, .navbar-red, .navbar-blue, .navbar-info, .navbar-error, .navbar-secondary, .navbar-primary {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   opacity: 0.8;
-  padding: 0.75rem 1.5rem;
-  position: fixed;
+  padding: 0 1rem;
 }
 .navbar .site-title, .navbar-white .site-title, .navbar-black .site-title, .navbar-gray .site-title, .navbar-purple .site-title, .navbar-orange .site-title, .navbar-green .site-title, .navbar-yellow .site-title, .navbar-red .site-title, .navbar-blue .site-title, .navbar-info .site-title, .navbar-error .site-title, .navbar-secondary .site-title, .navbar-primary .site-title {
   font-size: 1.5rem;
@@ -4029,6 +4029,32 @@ img {
 
 .navbar-white {
   background-color: #fffffc;
+}
+
+.first-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+  padding-right: 2rem;
+  font-size: smaller;
+  min-height: 2rem;
+}
+
+.first-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.first-nav ul li, .nav-item {
+  cursor: pointer;
+}
+
+.first-nav ul li:hover {
+  cursor: pointer;
 }
 
 .menu-desktop {
@@ -4118,9 +4144,18 @@ img {
     display: none;
   }
   .navbar, .navbar-primary, .navbar-secondary, .navbar-error, .navbar-info, .navbar-blue, .navbar-red, .navbar-yellow, .navbar-green, .navbar-orange, .navbar-purple, .navbar-gray, .navbar-black, .navbar-white {
-    justify-content: flex-end;
+    justify-content: space-between;
+    padding: 0 1rem;
   }
 }
+.header-img, .header-img:hover {
+  max-height: 3rem;
+  cursor: pointer;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  margin: 0;
+}
+
 .badge {
   border-radius: 80px;
   background-color: #cf9f00;
