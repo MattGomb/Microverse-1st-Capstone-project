@@ -12,8 +12,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://mattgomb.github.io/Microverse-1st-Capstone-proejct/)
-
+[Live Demo Link](https://mattgomb.github.io/Microverse-1st-Capstone-project/)
 
 ## Getting Started
 
