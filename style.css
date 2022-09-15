@@ -35,7 +35,7 @@ img {
 }
 
 .home-bg {
-  background-image: url("/images/header_greensziget.jpg");
+  background-image: url("./images/header_greensziget.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 440px;
@@ -89,19 +89,19 @@ img {
 }
 
 .pf-2019 {
-  background-image: url("/images/2019-past.jpg");
+  background-image: url("./images/2019-past.jpg");
 }
 
 .pf-2018 {
-  background-image: url("/images/2018-past.jpg");
+  background-image: url("./images/2018-past.jpg");
 }
 
 .pf-2017 {
-  background-image: url("/images/2017-past.jpg");
+  background-image: url("./images/2017-past.jpg");
 }
 
 .pf-2016 {
-  background-image: url("/images/2016-past.jpg");
+  background-image: url("./images/2016-past.jpg");
 }
 
 .container-logos {
@@ -3317,17 +3317,17 @@ img {
   padding: 0.75rem;
   border: 1px solid black;
 }
-@media (min-width: 0) {
+@media (min-width: 0px) {
   .card-b {
     margin: 0.75rem;
   }
 }
-@media (min-width: 480) {
+@media (min-width: 480px) {
   .card-b {
     margin: 0.5rem;
   }
 }
-@media (min-width: 720) {
+@media (min-width: 768px) {
   .card-b {
     margin: 0.25rem;
   }
@@ -3365,7 +3365,7 @@ img {
   align-self: center;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 768px) {
   #artistsholder {
     justify-content: space-evenly;
   }
