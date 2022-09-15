@@ -41,6 +41,10 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@MtysGombos1](https://twitter.com/MtysGombos1)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/gombos-mátyás-28139771/)
 
+## Ackowledgments
+
+To [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), Original design.
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
