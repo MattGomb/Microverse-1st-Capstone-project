@@ -12,8 +12,6 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
 }));
 
 /* dynamic HTML */
-
-const artistcard = document.getElementById('artistsholder');
 const featuredArtistsData = [
   {
     id: '1',
@@ -83,5 +81,5 @@ featuredArtistsData.forEach((artistcard) => {
   desc.textContent = artistcard.desc;
   div.appendChild(desc);
 
-  artistsholder.appendChild(article);
+  document.getElementById('artistsholder').appendChild(article);
 });
