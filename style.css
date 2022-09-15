@@ -4049,7 +4049,12 @@ img {
   gap: 1rem;
 }
 
-.first-nav ul li, .nav-item {
+.navbar li, .navbar-primary li, .navbar-secondary li, .navbar-error li, .navbar-info li, .navbar-blue li, .navbar-red li, .navbar-yellow li, .navbar-green li, .navbar-orange li, .navbar-purple li, .navbar-gray li, .navbar-black li, .navbar-white li {
+  list-style: none;
+}
+
+.first-nav ul li,
+.nav-item {
   cursor: pointer;
 }
 
@@ -4062,10 +4067,6 @@ img {
   gap: 1rem;
   color: white;
   font-weight: 600;
-}
-
-.navbar li, .navbar-primary li, .navbar-secondary li, .navbar-error li, .navbar-info li, .navbar-blue li, .navbar-red li, .navbar-yellow li, .navbar-green li, .navbar-orange li, .navbar-purple li, .navbar-gray li, .navbar-black li, .navbar-white li {
-  list-style: none;
 }
 
 .navbar li a, .navbar-primary li a, .navbar-secondary li a, .navbar-error li a, .navbar-info li a, .navbar-blue li a, .navbar-red li a, .navbar-yellow li a, .navbar-green li a, .navbar-orange li a, .navbar-purple li a, .navbar-gray li a, .navbar-black li a, .navbar-white li a {
@@ -4148,7 +4149,8 @@ img {
     padding: 0 1rem;
   }
 }
-.header-img, .header-img:hover {
+.header-img,
+.header-img:hover {
   max-height: 3rem;
   cursor: pointer;
   padding-left: 5rem;

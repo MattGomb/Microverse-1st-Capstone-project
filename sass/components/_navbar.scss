@@ -7,6 +7,7 @@
 
 .navbar {
   @extend .flex-layout;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -48,7 +49,12 @@
   gap: 1rem;
 }
 
-.first-nav ul li, .nav-item {
+.navbar li {
+  list-style: none;
+}
+
+.first-nav ul li,
+.nav-item {
   cursor: pointer;
 }
 
@@ -64,10 +70,6 @@
 }
 
 // hamburger button
-
-.navbar li {
-  list-style: none;
-}
 
 .navbar li a {
   color: white;
@@ -160,11 +162,11 @@
   }
 }
 
-.header-img, .header-img:hover {
+.header-img,
+.header-img:hover {
   max-height: 3rem;
   cursor: pointer;
   padding-left: 5rem;
   padding-right: 5rem;
   margin: 0;
 }
-
