@@ -37,6 +37,7 @@ img {
 
 .home-bg {
   background-image: url('./images/header_greensziget.jpg');
+  background-blend-mode: luminosity;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 440px;
@@ -45,11 +46,13 @@ img {
   h1 {
     padding: 1rem 2rem 2rem 2rem;
     letter-spacing: 4px;
+    font-weight:900;
   }
 
-  h2 {
-    padding: 2rem 0 0 1rem;
+  h4 {
+    padding:0 1rem;
     letter-spacing: 2px;
+    font-weight: 400;
   }
 
   p {
@@ -126,6 +129,7 @@ img {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 0 1rem;
+  margin-right: 4px;
 }
 
 .footer-img {
