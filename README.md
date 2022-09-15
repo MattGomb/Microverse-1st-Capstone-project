@@ -12,7 +12,7 @@
 
 ## Video Introduction
 
--[Video](https://www.loom.com/share/6c381ac74f1342878d1586c937587e5b)
+[Video](https://www.loom.com/share/6c381ac74f1342878d1586c937587e5b)
 
 ## Live Demo (if available)
 
