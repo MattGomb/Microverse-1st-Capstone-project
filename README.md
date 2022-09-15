@@ -10,6 +10,10 @@
 - HTML, CSS, JavaScript
 - SASS
 
+## Video Introduction
+
+-[Video](https://www.loom.com/share/6c381ac74f1342878d1586c937587e5b)
+
 ## Live Demo (if available)
 
 [Live Demo Link](https://mattgomb.github.io/Microverse-1st-Capstone-project/)
