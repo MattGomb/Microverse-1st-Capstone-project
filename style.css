@@ -3365,6 +3365,11 @@ img {
   align-self: center;
 }
 
+@media (min-width: 720px) {
+  #artistsholder {
+    justify-content: space-evenly;
+  }
+}
 .btn {
   text-decoration: none;
   cursor: pointer;

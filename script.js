@@ -61,7 +61,7 @@ const featuredArtistsData = [
 
 featuredArtistsData.forEach((artistcard) => {
   const article = document.createElement('article');
-  article.classList.add('artistcard');
+  article.classList.add('artistcard', 'col-12-xs', 'col-5-lg', 'col-5-xl', );
 
   const img = document.createElement('img');
   img.classList.add('card-img');
