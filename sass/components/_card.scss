@@ -21,9 +21,9 @@
   column-gap: 10px;
 
   .card-title {
-    font-size: $base-font-size;
     padding-bottom: $base-padding;
     font-weight: bold;
+    font-size: 24px;
   }
 
   .card-body {
@@ -57,10 +57,14 @@
   }
 
   .card-title {
-    font-size: $base-font-size;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
     font-weight: bold;
   }
+}
+
+.card-b:hover {
+  border: 3px solid white;
+  border-radius: 5px;
 }
 
 .artistcard {

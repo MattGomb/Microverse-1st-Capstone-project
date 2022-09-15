@@ -7,6 +7,15 @@
   margin: 0 auto 54px;
 }
 
+.separator-artists {
+  display: flex;
+  align-self: center;
+  width: 53px;
+  height: 16px;
+  border-bottom: 1px solid $info;
+  margin: -1rem 0 1rem 0;
+}
+
 $utilities: (
   "padding": (
     "prefix": "p",

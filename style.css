@@ -3293,9 +3293,9 @@ img {
        column-gap: 10px;
 }
 .card .card-title {
-  font-size: 1rem;
   padding-bottom: 0.75rem;
   font-weight: bold;
+  font-size: 24px;
 }
 .card .card-body {
   font-size: 1rem;
@@ -3330,9 +3330,13 @@ img {
   }
 }
 .card-b .card-title {
-  font-size: 1rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
   font-weight: bold;
+}
+
+.card-b:hover {
+  border: 3px solid white;
+  border-radius: 5px;
 }
 
 .artistcard {
@@ -4275,6 +4279,15 @@ img {
   height: 16px;
   border-bottom: 1px solid #cf9f00;
   margin: 0 auto 54px;
+}
+
+.separator-artists {
+  display: flex;
+  align-self: center;
+  width: 53px;
+  height: 16px;
+  border-bottom: 1px solid #cf9f00;
+  margin: -1rem 0 1rem 0;
 }
 
 .p-0 {

@@ -77,6 +77,10 @@ featuredArtistsData.forEach((artistcard) => {
   name.textContent = artistcard.name;
   div.appendChild(name);
 
+  const separator = document.createElement('div');
+  separator.classList.add('separator-artists');
+  div.appendChild(separator);
+
   const desc = document.createElement('p');
   desc.classList.add('card-body');
   desc.textContent = artistcard.desc;
