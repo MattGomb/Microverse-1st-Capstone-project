@@ -34,6 +34,19 @@ img {
   text-align: center;
 }
 
+.h1-about,
+.h4-about {
+  text-align: center;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("./images/about_bg_01.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 .about .h1-about {
   padding: 1rem 2rem 2rem 1rem;
   letter-spacing: 4px;
@@ -47,6 +60,11 @@ img {
   font-size: 32px;
 }
 
+@media (min-width: 768px) {
+  .about {
+    padding-top: 4rem;
+  }
+}
 .home-bg {
   background-image: url("./images/main_big.png");
   background-repeat: no-repeat;
@@ -89,31 +107,34 @@ img {
   font-weight: 800;
 }
 
+@media (min-width: 480px) {
+  .home-bg {
+    padding-top: 1rem;
+  }
+}
 @media (min-width: 768px) {
+  .home-bg {
+    padding-top: 7rem;
+  }
   .home-bg h1 {
-    margin-left: 7rem;
+    margin-left: 9rem;
   }
   .home-bg h4 {
-    margin-left: 7rem;
+    margin-left: 9rem;
   }
   .home-bg .card {
-    margin-left: 7rem;
+    margin-left: 9rem;
   }
   .home-bg .secondpara {
-    margin-left: 7rem;
+    margin-left: 9rem;
   }
   .home-bg .date {
-    margin-left: 7rem;
+    margin-left: 9rem;
   }
 }
 .sziget-logo {
   border: 1px solid #000;
   border-radius: 1rem;
-}
-
-.h1-about,
-.h4-about {
-  text-align: center;
 }
 
 .past-fests h2,
@@ -178,15 +199,6 @@ img {
 
 .footer-img {
   max-height: 2rem;
-}
-
-.about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-image: url("./images/about_bg_01.png");
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .exp {
@@ -3370,7 +3382,7 @@ img {
 }
 @media (min-width: 0) {
   .card-b {
-    margin: 0.75rem 1re;
+    margin: 0.75rem 1rem;
   }
 }
 @media (min-width: 480px) {
@@ -4040,8 +4052,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  opacity: 0.8;
   padding: 0 1rem;
+  background-color: white;
 }
 .navbar .site-title, .navbar-white .site-title, .navbar-black .site-title, .navbar-gray .site-title, .navbar-purple .site-title, .navbar-green .site-title, .navbar-yellow .site-title, .navbar-reda .site-title, .navbar-red .site-title, .navbar-blue .site-title, .navbar-info .site-title, .navbar-error .site-title, .navbar-secondary .site-title, .navbar-primary .site-title {
   font-size: 1.5rem;
@@ -4209,7 +4221,7 @@ img {
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 5.15rem;
+    top: 8rem;
     gap: 0;
     flex-direction: column;
     width: 100%;

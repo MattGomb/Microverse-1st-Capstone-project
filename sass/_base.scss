@@ -35,7 +35,19 @@ img {
   text-align: center;
 }
 
+.h1-about,
+.h4-about {
+  text-align: center;
+}
+
 .about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('./images/about_bg_01.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
   .h1-about {
     padding: 1rem 2rem 2rem 1rem;
     letter-spacing: 4px;
@@ -48,6 +60,12 @@ img {
     letter-spacing: 2px;
     font-weight: 400;
     font-size: 32px;
+  }
+}
+
+@media(min-width: 768px) {
+  .about {
+    padding-top: 4rem;
   }
 }
 
@@ -98,22 +116,34 @@ img {
   }
 }
 
-@media(min-width: 768px) {
+@media (min-width: 480px) {
   .home-bg {
+    padding-top: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-bg {
+    padding-top: 7rem;
+
     h1 {
-      margin-left: 7rem;
+      margin-left: 9rem;
     }
+
     h4 {
-      margin-left: 7rem;
+      margin-left: 9rem;
     }
+
     .card {
-      margin-left: 7rem;
+      margin-left: 9rem;
     }
+
     .secondpara {
-      margin-left: 7rem;
+      margin-left: 9rem;
     }
+
     .date {
-      margin-left: 7rem;
+      margin-left: 9rem;
     }
   }
 }
@@ -121,11 +151,6 @@ img {
 .sziget-logo {
   border: 1px solid #000;
   border-radius: 1rem;
-}
-
-.h1-about,
-.h4-about {
-  text-align: center;
 }
 
 .past-fests,
@@ -192,15 +217,6 @@ img {
 
 .footer-img {
   max-height: 2rem;
-}
-
-.about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-image: url('./images/about_bg_01.png');
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .exp {
