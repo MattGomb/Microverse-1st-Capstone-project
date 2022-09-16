@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  color: inherit;
+  margin: 0;
+}
+
+body {
+  font-family: Lato, sans-serif;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  border: 0;
+  border-top: 1px dotted #efefef;
+}
+
+img {
+  max-width: 100%;
+}
+
+.test {
+  color: $primary;
+}
+
+.h-secondary {
+  text-align: center;
+}
+
+.h1-about,
+.h4-about {
+  text-align: center;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('./images/about_bg_01.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  .h1-about {
+    padding: 1rem 2rem 2rem 1rem;
+    letter-spacing: 4px;
+    font-weight: 900;
+    font-size: 80px;
+  }
+
+  .h4-about {
+    padding: 0 0 0 1rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 768px) {
+  .about {
+    padding-top: 4rem;
+  }
+}
+
+.home-bg {
+  background-image: url('./images/main_big.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 440px;
+  background-color: rgba(255, 255, 255, 0.199);
+
+  h1 {
+    padding: 1rem 2rem 2rem 1rem;
+    letter-spacing: 4px;
+    font-weight: 900;
+    font-size: 80px;
+  }
+
+  h4 {
+    padding: 0 0 0 1rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 32px;
+  }
+
+  .card {
+    margin-left: 1rem;
+    text-align: justify;
+    border: 4px solid #fff;
+    background-color: #f7f7f8;
+    line-height: 220%;
+    padding: 10px 25px 0;
+    font-size: 1.125em;
+  }
+
+  .secondpara {
+    line-height: 150%;
+    margin-left: 1rem;
+    margin-bottom: 4rem;
+    font-size: 24px;
+    color: #333;
+  }
+
+  .date {
+    margin: 3rem 0 0 1rem;
+    color: #575757;
+    font-size: 36px;
+    font-weight: 800;
+  }
+}
+
+@media (min-width: 480px) {
+  .home-bg {
+    padding-top: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-bg {
+    padding-top: 7rem;
+
+    h1 {
+      margin-left: 9rem;
+    }
+
+    h4 {
+      margin-left: 9rem;
+    }
+
+    .card {
+      margin-left: 9rem;
+    }
+
+    .secondpara {
+      margin-left: 9rem;
+    }
+
+    .date {
+      margin-left: 9rem;
+    }
+  }
+}
+
+.sziget-logo {
+  border: 1px solid #000;
+  border-radius: 1rem;
+}
+
+.past-fests,
+.partners {
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+}
+
+.pf-2019,
+.pf-2018,
+.pf-2017,
+.pf-2016 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5rem;
+  font-size: 6rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.past-h:hover {
+  filter: grayscale(100%);
+}
+
+.pf-2019 {
+  background-image: url('./images/2019-past.jpg');
+}
+
+.pf-2018 {
+  background-image: url('./images/2018-past.jpg');
+}
+
+.pf-2017 {
+  background-image: url('./images/2017-past.jpg');
+}
+
+.pf-2016 {
+  background-image: url('./images/2016-past.jpg');
+}
+
+.container-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.logos {
+  padding: 1rem;
+}
+
+.footer {
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 1rem;
+  margin-right: 4px;
+}
+
+.footer-img {
+  max-height: 2rem;
+}
+
+.exp {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  background-image: url('./images/pattern_bg.png');
+}
+
+.text-footer {
+  font-size: 0.75rem;
+}

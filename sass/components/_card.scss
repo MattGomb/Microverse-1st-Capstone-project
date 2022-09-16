@@ -1,0 +1,109 @@
+@use 'sass:math';
+
+.contact-info {
+  font-size: 0.8rem;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 1rem;
+  margin: auto;
+  justify-items: center;
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+.card {
+  display: flex;
+  padding: $base-padding;
+  border: 1px solid #dfdfdf;
+  border-radius: math.div($base-border-radius, 4);
+  column-gap: 10px;
+
+  .card-title {
+    padding-bottom: $base-padding;
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  .card-body {
+    font-size: $base-font-size;
+
+    a {
+      text-decoration: underline;
+    }
+  }
+}
+
+.card-subtitle {
+  color: #ff4f38;
+  margin-bottom: 1rem;
+}
+
+.card-b {
+  display: block;
+  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  @media (min-width: 0) {
+    margin: 0.75rem 1rem;
+  }
+
+  @media (min-width: 480px) {
+    margin: 0.5rem 1rem;
+  }
+
+  @media (min-width: 768px) {
+    margin: 0.25rem 1rem;
+  }
+
+  @media (min-width: 960px) {
+    margin: 0 1rem;
+  }
+
+  .card-title {
+    padding-bottom: 1rem;
+    font-weight: bold;
+  }
+}
+
+.card-b:hover {
+  border: 3px solid white;
+  border-radius: 5px;
+}
+
+.artistcard {
+  display: flex;
+  padding: $base-padding;
+  column-gap: 10px;
+  margin: 0;
+
+  .card-body {
+    font-size: 0.75rem;
+  }
+
+  .card-title {
+    font-size: $base-font-size;
+    padding-bottom: $base-padding;
+    font-weight: bold;
+  }
+}
+
+.card-img {
+  max-height: 144px;
+  max-width: 144px;
+  align-self: center;
+}
+
+@media (min-width: 768px) {
+  #artistsholder {
+    justify-content: space-evenly;
+  }
+}
+
+.inner-card {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
