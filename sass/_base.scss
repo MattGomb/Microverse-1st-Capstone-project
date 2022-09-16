@@ -36,27 +36,69 @@ img {
 }
 
 .home-bg {
-  background-image: url('./images/header_greensziget.jpg');
-  background-blend-mode: luminosity;
+  background-image: url('./images/main_big.png');
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 440px;
   background-color: rgba(255, 255, 255, 0.199);
 
   h1 {
-    padding: 1rem 2rem 2rem 2rem;
+    padding: 1rem 2rem 2rem 1rem;
     letter-spacing: 4px;
     font-weight: 900;
+    font-size: 80px;
   }
 
   h4 {
-    padding: 0 1rem;
+    padding: 0 0 0 1rem;
     letter-spacing: 2px;
     font-weight: 400;
+    font-size: 32px;
   }
 
-  p {
+  .card {
+    margin-left: 1rem;
+    text-align: justify;
+    border: 4px solid #fff;
+    background-color: #f7f7f8;
+    line-height: 220%;
+    padding: 10px 25px 0;
+    font-size: 1.125em;
+  }
+
+  .secondpara {
     line-height: 150%;
+    margin-left: 1rem;
+    margin-bottom: 4rem;
+    font-size: 24px;
+    color: #333;
+  }
+
+  .date {
+    margin: 3rem 0 0 1rem;
+    color: #575757;
+    font-size: 36px;
+    font-weight: 800;
+  }
+}
+
+@media(min-width: 768px) {
+  .home-bg {
+    h1 {
+      margin-left: 7rem;
+    }
+    h4 {
+      margin-left: 7rem;
+    }
+    .card {
+      margin-left: 7rem;
+    }
+    .secondpara {
+      margin-left: 7rem;
+    }
+    .date {
+      margin-left: 7rem;
+    }
   }
 }
 
@@ -146,6 +188,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-items: center;
+  background-image: url('./images/pattern_bg.png');
 }
 
 .text-footer {

@@ -11,6 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
   opacity: 0.8;
   padding: 0 1rem;
 
@@ -65,14 +66,14 @@
 .menu-desktop {
   display: flex;
   gap: 1rem;
-  color: white;
+  color: #888;
   font-weight: 600;
+  align-items: center;
 }
 
 // hamburger button
 
 .navbar li a {
-  color: white;
   text-decoration: none;
 }
 
@@ -81,6 +82,22 @@
   justify-content: space-between;
   align-items: center;
   gap: 4rem;
+}
+
+.nav-button {
+  font-size: 1rem;
+  font-weight: bold;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #ef513c;
+  padding: 0.5rem;
+  color: #fff;
+  border: 0;
+  display: inline-block;
+}
+
+.nav-item {
+  color: white;
 }
 
 .nav-branding {
@@ -107,7 +124,7 @@
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: white;
+  background-color: #575757;
 }
 
 @media (max-width: 768px) {
@@ -134,7 +151,7 @@
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 3.25rem;
+    top: 5.15rem;
     gap: 0;
     flex-direction: column;
     width: 100%;

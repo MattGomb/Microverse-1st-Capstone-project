@@ -16,7 +16,7 @@
 .card {
   display: flex;
   padding: $base-padding;
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid rgb(255, 255, 255);
   border-radius: math.div($base-border-radius, 4);
   column-gap: 10px;
 
@@ -33,6 +33,11 @@
       text-decoration: underline;
     }
   }
+}
+
+.card-subtitle{
+  color: #ff4f38;
+  margin-bottom: 1rem;
 }
 
 .card-b {
@@ -85,8 +90,8 @@
 }
 
 .card-img {
-  max-height: 104px;
-  max-width: 104px;
+  max-height: 144px;
+  max-width: 144px;
   align-self: center;
 }
 

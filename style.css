@@ -35,27 +35,64 @@ img {
 }
 
 .home-bg {
-  background-image: url("./images/header_greensziget.jpg");
-  background-blend-mode: luminosity;
+  background-image: url("./images/main_big.png");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 440px;
   background-color: rgba(255, 255, 255, 0.199);
 }
 .home-bg h1 {
-  padding: 1rem 2rem 2rem 2rem;
+  padding: 1rem 2rem 2rem 1rem;
   letter-spacing: 4px;
   font-weight: 900;
+  font-size: 80px;
 }
 .home-bg h4 {
-  padding: 0 1rem;
+  padding: 0 0 0 1rem;
   letter-spacing: 2px;
   font-weight: 400;
+  font-size: 32px;
 }
-.home-bg p {
+.home-bg .card {
+  margin-left: 1rem;
+  text-align: justify;
+  border: 4px solid #fff;
+  background-color: #f7f7f8;
+  line-height: 220%;
+  padding: 10px 25px 0;
+  font-size: 1.125em;
+}
+.home-bg .secondpara {
   line-height: 150%;
+  margin-left: 1rem;
+  margin-bottom: 4rem;
+  font-size: 24px;
+  color: #333;
+}
+.home-bg .date {
+  margin: 3rem 0 0 1rem;
+  color: #575757;
+  font-size: 36px;
+  font-weight: 800;
 }
 
+@media (min-width: 768px) {
+  .home-bg h1 {
+    margin-left: 7rem;
+  }
+  .home-bg h4 {
+    margin-left: 7rem;
+  }
+  .home-bg .card {
+    margin-left: 7rem;
+  }
+  .home-bg .secondpara {
+    margin-left: 7rem;
+  }
+  .home-bg .date {
+    margin-left: 7rem;
+  }
+}
 .sziget-logo {
   border: 1px solid #000;
   border-radius: 1rem;
@@ -140,6 +177,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-items: center;
+  background-image: url("./images/pattern_bg.png");
 }
 
 .text-footer {
@@ -149,7 +187,7 @@ img {
 .container {
   width: 100%;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -3287,7 +3325,7 @@ img {
 .card {
   display: flex;
   padding: 0.75rem;
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 5px;
   -moz-column-gap: 10px;
        column-gap: 10px;
@@ -3302,6 +3340,11 @@ img {
 }
 .card .card-body a {
   text-decoration: underline;
+}
+
+.card-subtitle {
+  color: #ff4f38;
+  margin-bottom: 1rem;
 }
 
 .card-b {
@@ -3356,8 +3399,8 @@ img {
 }
 
 .card-img {
-  max-height: 104px;
-  max-width: 104px;
+  max-height: 144px;
+  max-width: 144px;
   align-self: center;
 }
 
@@ -4069,12 +4112,12 @@ img {
 .menu-desktop {
   display: flex;
   gap: 1rem;
-  color: white;
+  color: #888;
   font-weight: 600;
+  align-items: center;
 }
 
 .navbar li a, .navbar-primary li a, .navbar-secondary li a, .navbar-error li a, .navbar-info li a, .navbar-blue li a, .navbar-red li a, .navbar-yellow li a, .navbar-green li a, .navbar-orange li a, .navbar-purple li a, .navbar-gray li a, .navbar-black li a, .navbar-white li a {
-  color: white;
   text-decoration: none;
 }
 
@@ -4083,6 +4126,22 @@ img {
   justify-content: space-between;
   align-items: center;
   gap: 4rem;
+}
+
+.nav-button {
+  font-size: 1rem;
+  font-weight: bold;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #ef513c;
+  padding: 0.5rem;
+  color: #fff;
+  border: 0;
+  display: inline-block;
+}
+
+.nav-item {
+  color: white;
 }
 
 .nav-branding {
@@ -4108,7 +4167,7 @@ img {
   height: 3px;
   margin: 5px auto;
   transition: all 0.3s ease-in-out;
-  background-color: white;
+  background-color: #575757;
 }
 
 @media (max-width: 768px) {
@@ -4130,7 +4189,7 @@ img {
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 3.25rem;
+    top: 5.15rem;
     gap: 0;
     flex-direction: column;
     width: 100%;
