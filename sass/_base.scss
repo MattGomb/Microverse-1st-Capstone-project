@@ -35,6 +35,22 @@ img {
   text-align: center;
 }
 
+.about {
+  .h1-about {
+    padding: 1rem 2rem 2rem 1rem;
+    letter-spacing: 4px;
+    font-weight: 900;
+    font-size: 80px;
+  }
+
+  .h4-about {
+    padding: 0 0 0 1rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 32px;
+  }
+}
+
 .home-bg {
   background-image: url('./images/main_big.png');
   background-repeat: no-repeat;
@@ -182,6 +198,9 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url('./images/about_bg_01.png');
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .exp {
