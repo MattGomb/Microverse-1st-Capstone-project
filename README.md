@@ -13,9 +13,11 @@
 ## Video Introduction
 
 [Video](https://www.loom.com/share/6c381ac74f1342878d1586c937587e5b)
-## Live Demo (if available)
+
+## Live Demo 
 
 [Live Demo Link](https://mattgomb.github.io/Microverse-1st-Capstone-project/)
+
 ## Getting Started
 
 1 - Above the list of files, click on the "Code" button
